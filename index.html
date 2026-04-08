@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeTravel Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="background-layer">
+        <div class="background-overlay"></div>
+        <div class="background-glow"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <div class="brand-icon">T</div>
+                <div class="brand-text">
+                    <p class="brand-top">TimeTravel Agency</p>
+                    <p class="brand-bottom">Voyages extraordinaires</p>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <a href="#accueil">Accueil</a>
+                <a href="#agency">Agence</a>
+                <a href="#destinations">Destinations</a>
+            </nav>
+
+            <a href="#booking" class="button button-light header-cta">Réserver</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" id="accueil">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="pill pill-fuchsia">
+                        Webapp immersive · IA · voyages temporels
+                    </div>
+
+                    <h1>Explorez le temps comme une destination.</h1>
+
+                    <p class="hero-description">
+                        Une agence futuriste qui vous emmène vers des époques iconiques grâce
+                        à une expérience digitale moderne, conversationnelle et personnalisée.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#destinations" class="button button-light">
+                            Découvrir les destinations
+                        </a>
+                    </div>
+
+                    <div class="features-grid" id="featuresGrid"></div>
+                </div>
+
+                <div class="hero-visual-wrapper">
+                    <div class="hero-visual-glow"></div>
+
+                    <div class="hero-card">
+                        <div class="hero-card-top">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="hero-card-image-area">
+                            <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80"
+                                alt="Visuel immersif de voyage temporel" />
+                            <div class="hero-card-overlay"></div>
+
+                            <div class="recommended-card">
+                                <p class="recommended-label">Destination recommandée</p>
+
+                                <div class="recommended-content">
+                                    <div>
+                                        <h2>Paris 1889</h2>
+                                        <p>
+                                            Idéal pour une première traversée : spectaculaire,
+                                            accessible et culturellement inoubliable.
+                                        </p>
+                                    </div>
+
+                                    <div class="recommended-badge">Premium</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="agency">
+            <div class="container">
+                <div class="agency-grid">
+                    <div>
+                        <p class="section-label pink">L'agence</p>
+                        <h2 class="section-title">
+                            Une interface pensée pour faire rêver, guider et convertir.
+                        </h2>
+                    </div>
+
+                    <div class="agency-cards">
+                        <div class="glass-card">
+                            <p class="card-title">Concept</p>
+                            <p class="card-text">
+                                TimeTravel Agency transforme le voyage temporel en expérience
+                                digitale immersive, en combinant narration, design premium et
+                                personnalisation assistée par IA.
+                            </p>
+                        </div>
+
+                        <div class="glass-card">
+                            <p class="card-title">Objectif</p>
+                            <p class="card-text">
+                                Permettre à l'utilisateur de découvrir des époques, choisir une
+                                destination, dialoguer avec un agent virtuel et réserver un séjour
+                                en quelques étapes.
+                            </p>
+                        </div>
+
+                        <div class="glass-card full-span">
+                            <p class="card-title">Base prévue pour intégrer vos assets</p>
+                            <p class="card-text">
+                                Les visuels, vidéos, logos, textures sonores et contenus issus de
+                                votre projet précédent pourront être remplacés facilement dans
+                                cette structure sans revoir toute l'interface.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="destinations-section" id="destinations">
+            <div class="container">
+                <div class="destinations-header">
+                    <div>
+                        <p class="destinations-label">Destinations</p>
+                        <h2 class="destinations-title">Trois époques, trois promesses d'évasion.</h2>
+                    </div>
+
+                    <p class="destinations-text">
+                        Chaque carte peut ensuite être enrichie avec vos propres images,
+                        animations, micro-interactions et contenus détaillés.
+                    </p>
+                </div>
+
+                <div class="destinations-grid">
+                    <article class="destination-card">
+                        <div class="destination-image-wrapper">
+                            <img src="images/paris.png" alt="Paris 1889" class="destination-image" />
+                            <div class="destination-gradient paris"></div>
+                            <span class="destination-tag">Culture & prestige</span>
+                        </div>
+
+                        <div class="destination-content">
+                            <h3 class="destination-name">Paris 1889</h3>
+                            <p class="destination-subtitle">L'Exposition universelle comme si vous y étiez</p>
+                            <p class="destination-description">
+                                Plongez dans l'effervescence de Paris à la fin du XIXe siècle, entre innovation,
+                                élégance et découverte.
+                            </p>
+
+                            <div class="destination-actions">
+                                <a href="paris.html" class="destination-btn primary">Explorer Paris 1889</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="destination-card">
+                        <div class="destination-image-wrapper">
+                            <img src="images/cretace.png" alt="Crétacé" class="destination-image" />
+                            <div class="destination-gradient cretace"></div>
+                            <span class="destination-tag">Aventure intense</span>
+                        </div>
+
+                        <div class="destination-content">
+                            <h3 class="destination-name">Crétacé</h3>
+                            <p class="destination-subtitle">Une aventure brute au cœur du vivant</p>
+                            <p class="destination-description">
+                                Traversez une époque spectaculaire, dominée par une nature immense et
+                                des créatures fascinantes.
+                            </p>
+
+                            <div class="destination-actions">
+                                <a href="cretace.html" class="destination-btn primary">Explorer le Crétacé</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="destination-card">
+                        <div class="destination-image-wrapper">
+                            <img src="images/florence.png" alt="Florence 1504" class="destination-image" />
+                            <div class="destination-gradient florence"></div>
+                            <span class="destination-tag">Art & inspiration</span>
+                        </div>
+
+                        <div class="destination-content">
+                            <h3 class="destination-name">Florence 1504</h3>
+                            <p class="destination-subtitle">L'âge d'or de la Renaissance italienne</p>
+                            <p class="destination-description">
+                                Découvrez une cité d'art, de pensée et de création au moment où la beauté
+                                redessine le monde.
+                            </p>
+
+                            <div class="destination-actions">
+                                <a href="florence.html" class="destination-btn primary">Explorer Florence 1504</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Widget chatbot flottant -->
+        <div class="chatbot-widget">
+            <button class="chatbot-toggle" id="chatbotToggle" aria-label="Ouvrir le chatbot">
+                🤖​
+            </button>
+
+            <div class="chatbot-window" id="chatbotWindow">
+                <div class="chatbot-header">
+                    <div>
+                        <p class="chatbot-title">TimeTravel Assistant</p>
+                        <p class="chatbot-subtitle">Agence de voyage temporel de luxe</p>
+                    </div>
+                    <button class="chatbot-close" id="chatbotClose" aria-label="Fermer le chatbot">×</button>
+                </div>
+
+                <div class="chatbot-body" id="chatbotMessages">
+                    <div class="chatbot-message bot">
+                        Bonjour et bienvenue chez <strong>TimeTravel Agency</strong>. Je suis votre assistant virtuel.
+                        Je peux vous conseiller sur nos destinations, les tarifs, ou vous aider à choisir l’époque
+                        idéale.
+                    </div>
+                </div>
+
+                <form class="chatbot-form" id="chatbotForm">
+                    <input type="text" id="chatbotInput"
+                        placeholder="Posez-moi vos questions sur les voyages temporels..." />
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+
+
+
+        <section class="section" id="booking">
+            <div class="container booking-grid">
+                <div>
+                    <p class="section-label gold">Réservation</p>
+                    <h2 class="section-title">
+                        Configurez votre séjour temporel en quelques étapes.
+                    </h2>
+
+                    <p class="section-description">
+                        Cette première version propose une interface de réservation prête à
+                        connecter à une logique métier ou à une API plus tard.
+                    </p>
+
+                    <form class="booking-form" id="bookingForm">
+                        <label>
+                            <span>Destination</span>
+                            <select id="destinationSelect">
+                                <option value="Paris 1889">Paris 1889</option>
+                                <option value="Crétacé">Crétacé</option>
+                                <option value="Florence 1504">Florence 1504</option>
+                            </select>
+                        </label>
+
+                        <label>
+                            <span>Date de départ</span>
+                            <input type="date" id="travelDate" />
+                        </label>
+
+                        <label>
+                            <span>Voyageurs</span>
+                            <input type="number" id="travelersInput" min="1" value="2" />
+                        </label>
+
+                        <label>
+                            <span>Style d'expérience</span>
+                            <select id="experienceSelect">
+                                <option value="Culturel">Culturel</option>
+                                <option value="Aventure">Aventure</option>
+                                <option value="Premium">Premium</option>
+                                <option value="Sur mesure">Sur mesure</option>
+                            </select>
+                        </label>
+
+                        <label class="full-width">
+                            <span>Préférences</span>
+                            <textarea id="preferencesInput" rows="4"
+                                placeholder="Exemple : Je veux une destination artistique, confortable, idéale pour une première expérience."></textarea>
+                        </label>
+
+                        <div class="full-width">
+                            <button type="submit" class="button button-light">
+                                Commencer la réservation
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <aside class="booking-preview">
+                    <p class="preview-label">Aperçu du séjour</p>
+
+                    <div class="preview-card">
+                        <img id="previewImage" src="images/paris.png" alt="Aperçu de destination" />
+
+                        <div class="preview-content">
+                            <div>
+                                <p class="preview-title" id="previewTitle">
+                                    Paris 1889 — Séjour signature
+                                </p>
+                                <p class="preview-description" id="previewDescription">
+                                    Une expérience immersive pensée pour les voyageurs en quête de
+                                    découverte, d'élégance et de dépaysement historique.
+                                </p>
+                            </div>
+
+                            <div class="preview-stats">
+                                <div class="preview-stat">
+                                    <span>Durée conseillée</span>
+                                    <strong id="previewDuration">3 jours</strong>
+                                </div>
+
+                                <div class="preview-stat">
+                                    <span>Niveau</span>
+                                    <strong id="previewLevel">Accessible</strong>
+                                </div>
+
+                                <div class="preview-stat">
+                                    <span>Voyageurs</span>
+                                    <strong id="previewTravelers">2</strong>
+                                </div>
+
+                                <div class="preview-stat">
+                                    <span>Expérience</span>
+                                    <strong id="previewExperience">Culturel</strong>
+                                </div>
+
+                                <div class="preview-stat">
+                                    <span>Budget estimatif</span>
+                                    <strong id="previewBudget">À partir de 1 490 €</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 TimeTravel Agency — Prototype webapp immersive</p>
+
+            <div class="footer-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#agency">Agence</a>
+                <a href="#destinations">Destinations</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
